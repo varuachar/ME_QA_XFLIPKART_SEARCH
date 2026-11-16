@@ -1,0 +1,792 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1794852028.104][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files (x86)\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1794852030.560][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"157.0.8103.78\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"157.0.8103.78 (4b3d0dabb8250b6f152d2d85d79e7706e309d087-refs/branch-heads/8103@{#1573})\",\n         \"userDataDir\": \"C:\\\\Users\\\\hp\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir4356_1779476615\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:54047\"\n      },\n      \"goog:processID\": 3088,\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36\",\n      \"webauthn:extension:cmtgKey\": true,\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"~~~\": \"...\"\n   },\n   \"sessionId\": \"76793040c05e3acd83f3601ffc3b39ad\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852031.711][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1794852031.863][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE MaximizeWindow {\n   \"height\": 744,\n   \"width\": 1382,\n   \"x\": -8,\n   \"y\": -8\n}\n"
+        },
+        {
+            "COMMAND": "[1794852031.920][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1794852039.188][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1794852039.291][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElements {\n   \"using\": \"css selector\",\n   \"value\": \"span._30XB9F, button[aria-label='Close'], button[aria-label='close']\"\n}\n",
+            "RESPONSE": "[1794852041.356][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1794852041.378][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"tag name\",\n   \"value\": \"body\"\n}\n",
+            "RESPONSE": "[1794852041.928][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.71D35672530DB09541ADC720AA197737.e.35\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852041.989][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.71D35672530DB09541ADC720AA197737.e.35\",\n   \"text\": \"\ue00c\",\n   \"value\": [ \"\ue00c\" ]\n}\n",
+            "RESPONSE": "[1794852043.484][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852043.513][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1794852043.558][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.71D35672530DB09541ADC720AA197737.e.33\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852043.669][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND ClearElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.71D35672530DB09541ADC720AA197737.e.33\"\n}\n",
+            "RESPONSE": "[1794852044.765][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1794852044.792][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.71D35672530DB09541ADC720AA197737.e.33\",\n   \"text\": \"Washing Machine\",\n   \"value\": [ \"W\", \"a\", \"s\", \"h\", \"i\", \"n\", \"g\", \" \", \"M\", \"a\", \"c\", \"h\", \"i\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1794852045.222][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852045.241][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1794852045.344][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.71D35672530DB09541ADC720AA197737.e.33\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852045.474][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.71D35672530DB09541ADC720AA197737.e.33\",\n   \"text\": \"\ue007\",\n   \"value\": [ \"\ue007\" ]\n}\n",
+            "RESPONSE": "[1794852052.105][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852052.124][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetUrl {\n}\n",
+            "RESPONSE": "[1794852052.464][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetUrl \"https://www.flipkart.com/search?q=Washing%20Machine&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off\"\n"
+        },
+        {
+            "COMMAND": "[1794852052.497][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElements {\n   \"using\": \"css selector\",\n   \"value\": \"span._30XB9F, button[aria-label='Close'], button[aria-label='close']\"\n}\n",
+            "RESPONSE": "[1794852052.514][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1794852052.532][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"tag name\",\n   \"value\": \"body\"\n}\n",
+            "RESPONSE": "[1794852052.775][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1749\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852052.802][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1749\",\n   \"text\": \"\ue00c\",\n   \"value\": [ \"\ue00c\" ]\n}\n",
+            "RESPONSE": "[1794852053.434][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852053.447][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"div[data-id]\"\n}\n",
+            "RESPONSE": "[1794852053.473][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1750\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852053.533][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//*[normalize-space()='Popularity']\"\n}\n",
+            "RESPONSE": "[1794852053.603][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1751\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852053.648][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//*[normalize-space()='Popularity']\"\n}\n",
+            "RESPONSE": "[1794852053.680][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1751\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852053.722][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND IsElementEnabled {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1751\"\n}\n",
+            "RESPONSE": "[1794852053.739][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1794852053.749][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND ClickElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1751\"\n}\n",
+            "RESPONSE": "[1794852054.054][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1794852054.071][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"div[data-id]\"\n}\n",
+            "RESPONSE": "[1794852054.096][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1750\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852054.157][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElements {\n   \"using\": \"css selector\",\n   \"value\": \"div[data-id]\"\n}\n",
+            "RESPONSE": "[1794852054.188][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1750\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1752\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1753\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1754\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1755\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1756\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1757\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1758\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1759\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1760\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1761\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1762\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1763\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1764\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1765\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1766\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1767\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1768\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1769\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1794852054.211][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1750\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.239][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".XQDdHH, ._3LWZlK\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.349][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1752\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.650][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.664][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1753\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.684][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.695][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1754\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.710][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.720][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1755\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.746][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.762][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1756\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.784][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.797][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1757\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.819][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.844][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1758\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.868][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.882][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1759\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852054.899][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852054.920][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1760\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.163][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.183][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1761\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.207][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.219][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1762\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.234][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.248][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1763\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.265][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.277][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1764\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.292][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.302][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1765\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.317][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.327][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1766\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.341][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.350][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1767\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.379][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.389][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1768\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.404][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.414][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1769\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.430][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.464][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1770\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.504][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.517][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1771\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.551][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.567][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1772\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.593][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.603][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1773\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.621][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.631][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.8A798F00F1D8BD2C21F25FEB7BA94884.e.1774\",\n   \"using\": \"css selector\",\n   \"value\": \".XQDdHH, ._3LWZlK\"\n}\n",
+            "RESPONSE": "[1794852055.649][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR stale element reference: stale element not found in the current frame\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852055.666][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1794852059.559][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1794852059.584][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1794852059.934][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2507\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852061.161][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND ClearElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2507\"\n}\n",
+            "RESPONSE": "[1794852062.499][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1794852062.513][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2507\",\n   \"text\": \"iPhone\",\n   \"value\": [ \"i\", \"P\", \"h\", \"o\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1794852063.818][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852063.829][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1794852064.192][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2507\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852064.307][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2507\",\n   \"text\": \"\ue007\",\n   \"value\": [ \"\ue007\" ]\n}\n",
+            "RESPONSE": "[1794852064.580][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852064.593][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"div[data-id]\"\n}\n",
+            "RESPONSE": "[1794852064.614][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2836\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852064.668][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElements {\n   \"using\": \"css selector\",\n   \"value\": \"div[data-id]\"\n}\n",
+            "RESPONSE": "[1794852064.685][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2836\"\n} ]\n"
+        },
+        {
+            "COMMAND": "[1794852064.695][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2836\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852064.727][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852064.740][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.5467622F82E55C88B8F27AB49057B692.e.2836\",\n   \"using\": \"css selector\",\n   \"value\": \".UkUFwK, ._3Ay6Sb\"\n}\n",
+            "RESPONSE": "[1794852064.764][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".UkUFwK, ._3Ay6Sb\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852064.776][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com/\"\n}\n",
+            "RESPONSE": "[1794852069.399][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1794852069.406][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElements {\n   \"using\": \"css selector\",\n   \"value\": \"span._30XB9F, button[aria-label='Close'], button[aria-label='close']\"\n}\n",
+            "RESPONSE": "[1794852069.914][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1794852069.933][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"tag name\",\n   \"value\": \"body\"\n}\n",
+            "RESPONSE": "[1794852070.249][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.D7BF300568B62A68875FF7A30F24B928.e.3176\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852070.262][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.D7BF300568B62A68875FF7A30F24B928.e.3176\",\n   \"text\": \"\ue00c\",\n   \"value\": [ \"\ue00c\" ]\n}\n",
+            "RESPONSE": "[1794852071.248][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852071.257][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1794852071.321][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.D7BF300568B62A68875FF7A30F24B928.e.2860\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852071.415][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND ClearElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.D7BF300568B62A68875FF7A30F24B928.e.2860\"\n}\n",
+            "RESPONSE": "[1794852072.030][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE ClearElement\n"
+        },
+        {
+            "COMMAND": "[1794852072.041][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.D7BF300568B62A68875FF7A30F24B928.e.2860\",\n   \"text\": \"Coffee Mug\",\n   \"value\": [ \"C\", \"o\", \"f\", \"f\", \"e\", \"e\", \" \", \"M\", \"u\", \"g\" ]\n}\n",
+            "RESPONSE": "[1794852072.535][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852072.545][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1794852072.637][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.D7BF300568B62A68875FF7A30F24B928.e.2860\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852072.725][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.D7BF300568B62A68875FF7A30F24B928.e.2860\",\n   \"text\": \"\ue007\",\n   \"value\": [ \"\ue007\" ]\n}\n",
+            "RESPONSE": "[1794852076.898][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852076.908][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetUrl {\n}\n",
+            "RESPONSE": "[1794852077.356][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetUrl \"https://www.flipkart.com/search?q=Coffee%20Mug&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off\"\n"
+        },
+        {
+            "COMMAND": "[1794852077.369][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElements {\n   \"using\": \"css selector\",\n   \"value\": \"span._30XB9F, button[aria-label='Close'], button[aria-label='close']\"\n}\n",
+            "RESPONSE": "[1794852077.652][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1794852077.676][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"tag name\",\n   \"value\": \"body\"\n}\n",
+            "RESPONSE": "[1794852077.736][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4333\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852077.751][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND TypeElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4333\",\n   \"text\": \"\ue00c\",\n   \"value\": [ \"\ue00c\" ]\n}\n",
+            "RESPONSE": "[1794852078.776][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE TypeElement\n"
+        },
+        {
+            "COMMAND": "[1794852078.789][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"div[data-id]\"\n}\n",
+            "RESPONSE": "[1794852078.814][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4334\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852078.882][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//*[contains(normalize-space(.),'4') and contains(normalize-space(.),'above')]\"\n}\n",
+            "RESPONSE": "[1794852078.970][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4335\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852079.075][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//*[contains(normalize-space(.),'4') and contains(normalize-space(.),'above')]\"\n}\n",
+            "RESPONSE": "[1794852079.115][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4335\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852079.192][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND IsElementEnabled {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4335\"\n}\n",
+            "RESPONSE": "[1794852079.211][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE IsElementEnabled true\n"
+        },
+        {
+            "COMMAND": "[1794852079.222][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND ClickElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4335\"\n}\n",
+            "RESPONSE": "[1794852079.757][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE ClickElement\n"
+        },
+        {
+            "COMMAND": "[1794852079.767][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"div[data-id]\"\n}\n",
+            "RESPONSE": "[1794852079.783][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4334\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852079.836][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindElements {\n   \"using\": \"css selector\",\n   \"value\": \"div[data-id]\"\n}\n",
+            "RESPONSE": "[1794852079.857][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4334\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4336\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4337\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4338\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4339\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4340\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4341\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4342\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4343\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4344\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4345\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4346\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4347\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4348\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4349\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4350\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4351\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4352\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4353\"\n}, \"...\" ]\n"
+        },
+        {
+            "COMMAND": "[1794852079.870][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4334\"\n}\n",
+            "RESPONSE": "[1794852079.951][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Redsky Coffee with Anti Spill Lid for Travel Office & H...\\n301 ml, Pack of 2\\n4.2(107)\\n\u20b9270\u20b939932% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852079.964][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4334\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852079.985][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852079.996][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4334\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852080.027][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3402\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852080.086][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4336\"\n}\n",
+            "RESPONSE": "[1794852080.152][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"rich mart Self Stirring Electric Automatic Mixing Coffe...\\n400 ml\\n4.1(2,901)\\n\u20b9328\u20b92,29985% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852080.163][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4336\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852080.182][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852080.191][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4336\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852080.210][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3259\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852080.244][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4337\"\n}\n",
+            "RESPONSE": "[1794852080.300][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Bestseller\\nNovo Insulated Coffee Travel with Leakproof Lid, Therma...\\n500 ml\\n4(1,006)\\n\u20b9292\u20b999970% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852080.308][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4337\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852080.328][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852080.339][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4337\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852080.358][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3433\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852080.391][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4338\"\n}\n",
+            "RESPONSE": "[1794852080.447][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Novo Insulated Coffee Travel, Double WalledInsulated Cu...\\n500 ml\\n4.1(336)\\n\u20b9394\u20b91,49973% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852080.456][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4338\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852080.492][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852080.507][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4338\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852080.625][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3448\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852080.675][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4339\"\n}\n",
+            "RESPONSE": "[1794852080.749][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"ZROY ENTERPRISE Textured Glass Coffee with Cute Bear Li...\\n410 ml, Pack of 2\\n4.1(698)\\n\u20b9200\u20b999979% off\\nHot Deal\"\n"
+        },
+        {
+            "COMMAND": "[1794852080.760][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4339\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852080.791][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852080.802][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4339\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852080.825][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3463\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852080.887][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4340\"\n}\n",
+            "RESPONSE": "[1794852080.983][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"sabaat Frosted Glass with Printed Quote, 9.5 cm Glass C...\\n300 ml\\n\u20b9468\u20b979941% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852080.992][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4340\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852081.268][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852081.310][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4340\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852081.493][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3479\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852082.260][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4341\"\n}\n",
+            "RESPONSE": "[1794852082.455][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"MILTON Horizon Coffee 350 Double Walled with Lid & Hand...\\n350 ml\\n4.3(255)\\n\u20b9449\u20b954016% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852082.499][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4341\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852082.527][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852082.549][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4341\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852082.605][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3491\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852082.659][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4342\"\n}\n",
+            "RESPONSE": "[1794852082.743][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Anabia White customized mug 300ml pack of 1_printed_968...\\n300 ml\\n\u20b9145\u20b949970% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852082.756][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4342\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852082.804][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852082.817][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4342\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852082.843][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3506\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852082.899][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4343\"\n}\n",
+            "RESPONSE": "[1794852082.981][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"MMTSWorld Glass Coffee Tumbler with Lid and Straw Trave...\\n350 ml\\n4.3(475)\\n\u20b9127\u20b999987% off\\nHot Deal\"\n"
+        },
+        {
+            "COMMAND": "[1794852082.993][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4343\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852083.016][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852083.027][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4343\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852083.050][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3517\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852083.121][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4344\"\n}\n",
+            "RESPONSE": "[1794852083.219][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"LYROVO Insulated Travel Coffee Stainless Steel Coffee M...\\n380 ml\\n4.1(192)\\n\u20b9286\u20b999971% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852083.236][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4344\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852083.264][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852083.278][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4344\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852083.302][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3532\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852083.355][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4345\"\n}\n",
+            "RESPONSE": "[1794852083.437][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"sabaat Frosted Glass with Palestine Keffiyeh Print Glas...\\n300 ml\\n\u20b9508\u20b979936% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852083.473][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4345\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852083.676][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852083.686][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4345\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852083.702][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3547\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852083.742][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4346\"\n}\n",
+            "RESPONSE": "[1794852083.799][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"sabaat Hasbunallah Wanikmal Wakeel Islamic Bone China 2...\\n230 ml\\n\u20b9358\u20b959940% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852083.808][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4346\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852083.828][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852083.838][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4346\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852083.865][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3559\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852083.917][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4347\"\n}\n",
+            "RESPONSE": "[1794852084.050][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"SHIPROQK KIdo Craft Luxury Tea and Coffee Cup Glass Gla...\\n410 ml, Pack of 2\\n4.3(211)\\n\u20b9245\u20b91,29981% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852084.060][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4347\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852084.102][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852084.121][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4347\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852084.155][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3571\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852084.265][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4348\"\n}\n",
+            "RESPONSE": "[1794852084.488][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"JB Fashion N Gifts Magic Hot Water Photo Ceramic Coffee...\\n325 ml\\n\u20b9260\u20b979967% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852084.497][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4348\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852084.514][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852084.525][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4348\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852084.546][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3587\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852084.598][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4349\"\n}\n",
+            "RESPONSE": "[1794852084.665][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Ribber Camera Lens Coffee 400 ml, Black Plastic, Stainl...\\n400 ml\\n4.1(474)\\n\u20b9292\u20b953945% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852084.675][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4349\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852084.725][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852084.741][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4349\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852084.798][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3598\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852084.829][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4350\"\n}\n",
+            "RESPONSE": "[1794852084.892][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Glazito Matte Black & Brown Modern Dual Tone Design for...\\n300 ml, Pack of 2\\n4.1(51)\\n\u20b9198\u20b999980% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852084.904][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4350\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852084.937][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852084.948][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4350\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852084.971][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3613\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852085.001][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4351\"\n}\n",
+            "RESPONSE": "[1794852085.168][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"MAGICSPOON Stainless Steel Coffee with Lid (300 ml) (Pa...\\n300 ml, Pack of 2\\n4.3(824)\\n\u20b9214\u20b979973% off\\nHot Deal\"\n"
+        },
+        {
+            "COMMAND": "[1794852085.179][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4351\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852085.207][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852085.215][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4351\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852085.232][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3628\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852085.272][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4352\"\n}\n",
+            "RESPONSE": "[1794852085.434][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"MYOZ Stainless Steel Vacuum Double Insulated Tumbler wi...\\n1200 ml\\n4.5(4,699)\\n\u20b9722\u20b92,49971% off\\nHot Deal\"\n"
+        },
+        {
+            "COMMAND": "[1794852085.450][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4352\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852085.471][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852085.486][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4352\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852085.508][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3645\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852085.544][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4353\"\n}\n",
+            "RESPONSE": "[1794852085.650][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Giftspedia Ceramic Coffee printed Pack of 1_01565 Ceram...\\n325 ml\\n\u20b998\u20b939975% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852085.658][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4353\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852085.686][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852085.696][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4353\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852085.717][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3662\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852085.769][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4354\"\n}\n",
+            "RESPONSE": "[1794852085.823][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"OFFYX Stainless Steel Tea Cup Stainless Steel Coffee wi...\\n300 ml\\n4.2(3,068)\\n\u20b9144\u20b939963% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852085.832][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4354\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852085.856][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852085.880][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4354\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852085.930][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3675\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852085.995][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4355\"\n}\n",
+            "RESPONSE": "[1794852086.077][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"The Divine Tales 1200ML Stainless Steel Travel Tumbler ...\\n1200 ml\\n\u20b91,000\u20b91,99949% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852086.087][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4355\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852086.109][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852086.122][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4355\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852086.144][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3690\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852086.199][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4356\"\n}\n",
+            "RESPONSE": "[1794852086.271][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Golden Queens GOLDEN QUEEN'S Pink Floral Ceramic for Co...\\n300 ml, Pack of 2\\n4.6(171)\\n\u20b9546\u20b91,09049% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852086.279][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4356\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852086.323][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852086.349][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4356\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852086.382][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3702\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852086.442][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4357\"\n}\n",
+            "RESPONSE": "[1794852086.638][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"YUMWARE Snoopy_Brown Plastic, Stainless Steel Coffee Mu...\\n350 ml\\n4.3(1,914)\\n\u20b9198\u20b949960% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852086.662][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4357\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852086.714][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852086.738][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4357\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852086.792][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3718\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852086.817][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4358\"\n}\n",
+            "RESPONSE": "[1794852086.996][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"rich mart Self Stirring Electric Automatic Mixing Coffe...\\n400 ml\\n4.1(2,901)\\n\u20b9328\u20b92,29985% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852087.011][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4358\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852087.039][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852087.048][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4358\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852087.096][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3734\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852087.157][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4359\"\n}\n",
+            "RESPONSE": "[1794852087.233][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Worldwise Intelligent Thermos Stainless Steel Cup with ...\\n450 ml\\n4(268)\\n\u20b9308\u20b91,99984% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852087.247][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4359\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852087.270][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852087.280][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4359\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852087.314][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3749\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852087.359][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4360\"\n}\n",
+            "RESPONSE": "[1794852087.437][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Craft N Creation Goma & Peach Bear Printed Couple Coffe...\\n300 ml, Pack of 2\\n4.4(149)\\n\u20b9178\u20b979977% off\\nHot Deal\"\n"
+        },
+        {
+            "COMMAND": "[1794852087.446][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4360\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852087.463][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852087.470][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4360\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852087.488][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4375\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852087.513][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4361\"\n}\n",
+            "RESPONSE": "[1794852087.685][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Golden Queens Ceramic Floral Print - Milk & Coffee, 300...\\n300 ml, Pack of 2\\n4.5(141)\\n\u20b9480\u20b983042% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852087.693][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4361\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852087.713][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852087.720][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4361\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852087.738][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3781\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852087.765][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4362\"\n}\n",
+            "RESPONSE": "[1794852087.858][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"IMECO Bamboo Eco-Friendly Coffee-Mug with Lid - Ideal f...\\n300 ml\\n4.3(409)\\n\u20b9367\u20b989959% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852087.874][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4362\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852087.907][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852087.920][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4362\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852087.949][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3797\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852088.057][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4363\"\n}\n",
+            "RESPONSE": "[1794852088.122][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"DiziGoo Mart Ribbed Creams And Speckled Snack Bowls Gif...\\n200 ml, Pack of 6\\n\u20b9426\u20b999957% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852088.132][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4363\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852088.149][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852088.158][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4363\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852088.175][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3813\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852088.207][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4364\"\n}\n",
+            "RESPONSE": "[1794852088.275][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Jaypee Plus Cupshup Stainless Steel Coffee Mug\\n400 ml\\n4.1(58)\\n\u20b9221\u20b936038% off\\nHot Deal\"\n"
+        },
+        {
+            "COMMAND": "[1794852088.288][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4364\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852088.319][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852088.329][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4364\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852088.352][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3825\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852088.386][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4365\"\n}\n",
+            "RESPONSE": "[1794852088.512][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"rich mart Electric Self Stirring Automatic Mixing Coffe...\\n400 ml\\n4(246)\\n\u20b9328\u20b92,09984% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852088.525][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4365\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852088.550][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852088.558][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4365\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852088.583][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3841\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852088.619][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4366\"\n}\n",
+            "RESPONSE": "[1794852088.681][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Contigo West Loop Thermosteel Travel Insulated Leakproo...\\n470 ml\\n\u20b92,418\u20b92,99919% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852088.689][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4366\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852088.722][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852088.731][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4366\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852088.748][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3857\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852088.781][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4367\"\n}\n",
+            "RESPONSE": "[1794852088.849][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"MILTON Cool Touch Deccan 350 Stainless Steel with Lid, ...\\n330 ml\\n4.2(333)\\n\u20b9361\u20b94009% off\\nOnly 1 left\"\n"
+        },
+        {
+            "COMMAND": "[1794852088.860][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4367\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852088.889][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852088.901][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4367\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852088.934][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3870\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852088.966][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4368\"\n}\n",
+            "RESPONSE": "[1794852089.054][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"KanchKart Clear Glass Beer 400ml (Pack of 1) Glass Beer...\\n400 ml\\n4.7(38)\\n\u20b9128\u20b929957% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852089.066][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4368\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852089.145][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852089.161][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4368\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852089.218][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3885\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852089.251][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4369\"\n}\n",
+            "RESPONSE": "[1794852089.313][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Giftspedia Ceramic Coffee printed Pack of 1_01817 Ceram...\\n325 ml\\n\u20b998\u20b939975% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852089.322][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4369\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852089.345][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852089.353][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4369\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852089.369][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3900\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852089.413][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4370\"\n}\n",
+            "RESPONSE": "[1794852089.492][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"MMTSWorld Wooden Lid Mojito Glass Sipper Tumbler with S...\\n540 ml\\n4.2(1,417)\\n\u20b9185\u20b989979% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852089.502][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4370\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852089.551][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852089.561][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4370\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852089.589][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3913\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852089.628][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4371\"\n}\n",
+            "RESPONSE": "[1794852089.707][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Golden Queens Ceramic Flower Print - Milk & Coffee, 300...\\n300 ml, Pack of 2\\n4.8(63)\\n\u20b9451\u20b980343% off\\nLowest price in the year\"\n"
+        },
+        {
+            "COMMAND": "[1794852089.714][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4371\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852089.868][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852089.875][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4371\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852090.182][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3928\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852090.234][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4372\"\n}\n",
+            "RESPONSE": "[1794852090.315][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Contigo Byron Stainless Steel Insulated Travel Leak Pro...\\n590 ml\\n\u20b91,838\u20b92,29920% off\"\n"
+        },
+        {
+            "COMMAND": "[1794852090.337][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4372\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852090.436][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852090.446][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4372\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852090.469][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3945\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852090.507][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4373\"\n}\n",
+            "RESPONSE": "[1794852090.578][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"Newai Ceramic Milk Coffees Black mug 250ML pack of 4 Ce...\\n250 ml, Pack of 4\\n4.3(890)\\n\u20b9370\u20b949925% off\\nHot Deal\"\n"
+        },
+        {
+            "COMMAND": "[1794852090.588][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4373\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852090.615][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852090.635][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4373\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852090.746][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3957\"\n}\n"
+        },
+        {
+            "COMMAND": "[1794852090.779][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND GetElementText {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4374\"\n}\n",
+            "RESPONSE": "[1794852090.964][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE GetElementText \"KAVANA Vacuum Insulated Travel Coffee/Tea Flask ,Stainl...\\n380 ml\\n3.8(659)\\n\u20b9298\u20b969957% off\\nOnly few left\"\n"
+        },
+        {
+            "COMMAND": "[1794852090.971][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4374\",\n   \"using\": \"css selector\",\n   \"value\": \".KzDlHZ, .wjcEIp, .syl9yP\"\n}\n",
+            "RESPONSE": "[1794852091.005][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".KzDlHZ, .wjcEIp, .syl9yP\"}\n  (Session info: chrome=157.0.8103.78)\n"
+        },
+        {
+            "COMMAND": "[1794852091.020][INFO]: [76793040c05e3acd83f3601ffc3b39ad] COMMAND FindChildElement {\n   \"id\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.4374\",\n   \"using\": \"css selector\",\n   \"value\": \"img\"\n}\n",
+            "RESPONSE": "[1794852091.041][INFO]: [76793040c05e3acd83f3601ffc3b39ad] RESPONSE FindChildElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.5F14A9EF1644B9BD083497DBFFB3A22F.d.601B065BF0CD1165540CC39E8B135940.e.3973\"\n}\n"
+        }
+    ]
+}
